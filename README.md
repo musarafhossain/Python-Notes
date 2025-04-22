@@ -10,4 +10,8 @@
 <br>
 [4_Identifier](https://github.com/musarafhossain/Python-Notes/tree/main/4_Identifier)
 <br>
-[5_Constants](https://github.com/musarafhossain/Python-Notes/tree/main/5_Constants)
+[5_Keywords](https://github.com/musarafhossain/Python-Notes/tree/main/5_Keywords)
+<br>
+[6_Constants](https://github.com/musarafhossain/Python-Notes/tree/main/6_Constants)
+<br>
+[7_Variable](https://github.com/musarafhossain/Python-Notes/tree/main/7_Variable)
