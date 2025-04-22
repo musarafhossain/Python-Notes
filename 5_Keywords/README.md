@@ -1,4 +1,4 @@
-# 5. Keywords
+# 5. Keywords or Reserved Words
 
 - Python language uses the following keywords which are not available to users to use them as identifiers.
 

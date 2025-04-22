@@ -9,3 +9,5 @@
 [3_Python_Virtual_Machine](https://github.com/musarafhossain/Python-Notes/tree/main/3_Python_Virtual_Machine)
 <br>
 [4_Identifier](https://github.com/musarafhossain/Python-Notes/tree/main/4_Identifier)
+<br>
+[5_Constants](https://github.com/musarafhossain/Python-Notes/tree/main/5_Constants)
