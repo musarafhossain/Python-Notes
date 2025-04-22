@@ -2,5 +2,8 @@
 
 # Basic Python
 
-[1_Introduction_to_Python](https://musarafhossain.github.io/Python-Notes/1_Introduction_to_Python)
-[2_How_Python_Works](https://musarafhossain.github.io/Python-Notes/2_How_Python_Works)
+[1_Introduction_to_Python](https://github.com/musarafhossain/Python-Notes/tree/main/1_Introduction_to_Python)
+<br>
+[2_How_Python_Works](https://github.com/musarafhossain/Python-Notes/tree/main/2_How_Python_Works)
+<br>
+[3_Python_Virtual_Machine](https://github.com/musarafhossain/Python-Notes/tree/main/3_Python_Virtual_Machine)
