@@ -1,4 +1,4 @@
-# 2. How Python Works?
+# 2. Identifier
 
 - An identifier is a name having a few letters, numbers and special characters `_` (underscore). 
 - It should always start with a non-numeric character. 
