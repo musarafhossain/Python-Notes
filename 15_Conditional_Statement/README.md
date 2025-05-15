@@ -1,6 +1,8 @@
 # Conditional Statement
 
-# If Statement
+--- 
+
+# `if` Statement
 
 - It is used to execute an instruction or block of instructions only if a condition is fulfilled.
 - #### Syntax: -
@@ -93,7 +95,7 @@ if age < 18 or not has_ticket:
 print("Check complete.")
 ```
 
-# If Else Statement
+# `if-else` Statement
 
 - `if`…`else` statement is used when a different sequence of instructions is to be executed depending on the logical value(`True`/`False`) of the condition evaluated.
 - #### Syntax: - 
@@ -123,7 +125,7 @@ print("Weather check complete.")
 ### Flowchart
 ![](/14_Conditional_Statement/image2.png)
 
-## Nested If Else Statement
+## Nested `if-else` Statement
 
 - In nested `if`…`else` statement, an entire `if`…`else` construct is written within either the body of the `if` statement or the body of an `else` statement.
 
@@ -161,7 +163,7 @@ else:
 print("Verification complete.")
 ```
 
-# if elif Statement
+# `if-elif` Statement
 
 - To show a multi-way decision based on several conditions, we use `if` `elif` statement.
 - #### Syntax :-
@@ -192,7 +194,7 @@ elif marks >= 60:
 print("Grading complete.")
 ```
 
-# if elif else Statement
+# `if-elif-else` Statement
 
 - To show a multi-way decision based on several conditions, we use `if` `elif` `else` statement.
 - #### Syntax :-
@@ -230,3 +232,38 @@ print("Grading complete.")
 
 ### Flowchart
 ![](/14_Conditional_Statement/image3.png)
+
+---
+
+# `match-case` Statement
+
+* Introduced in **Python 3.10**, the `match-case` statement is Python’s version of **switch-case**, used for **pattern matching**.
+* It allows checking a value against **multiple patterns**, making the code **cleaner and more readable** compared to multiple `if-elif-else`.
+
+* #### Syntax:
+
+```python
+match variable:
+    case pattern1:
+        # block of code
+    case pattern2:
+        # block of code
+    case _:
+        # default case (like else)
+```
+
+* #### Example:
+
+```python
+command = "start"
+
+match command:
+    case "start":
+        print("System is starting...")
+    case "stop":
+        print("System is stopping...")
+    case "restart":
+        print("System is restarting...")
+    case _:
+        print("Unknown command")
+```
