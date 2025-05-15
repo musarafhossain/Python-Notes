@@ -216,3 +216,110 @@ print("Nested loop execution complete.")
 ```
 
 ---
+
+# `range()` Function
+
+- `range()` function is used to generate a sequence of integers starting from `0` by default, and increments by `1` by default, till `j-1`. 
+- #### Syntax:- 
+```python
+range(start, stop, stepsize)
+```
+- **Start –** Starting position. If we do not mention start by default it’s `0`
+- **Stop –** Ending position. The range of integers stops one element prior to stop. If stop is `j` then it will stop at exact `j-1`
+- **Stepsize –** Increment by stepsize. If we do not mention start by default it’s `1`
+- #### Example:-
+```python
+range(10)		    # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+range(1, 10)        # 1, 2, 3, 4, 5, 6, 7, 8, 9
+range(1, 10, 2)	    # 1, 3, 5, 7, 9
+range(-1, -10, -2)	# -1  -3  -5  -7  -9
+range(10, 0, -1)	# 10  9  8  7  6  5  4  3  2  1
+```
+### Rules:-
+- All argument must be integers, whether its positive or negative
+- You can not pass a string or float number or any other type in a `start`, `stop` and `stepsize`.
+- The `stepsize` value should not be zero.
+---
+
+# `break` Statement
+
+- `break` statement is used to jump out of loop to process the next statement in the program.
+- #### Syntax:-
+```python
+while condition:
+    if(condition):
+        break
+Rest of Code
+```
+- #### Example:-
+```python
+num = 0
+while num != 5:
+    if(n==3):
+        break
+    print(num)      # 0 1 2
+    num+=1 
+```
+
+---
+
+# `continue` Statement
+
+- `continue` statement is used in a loop to go back to the beginning of the loop and skip the rest of code below the `continue` statement.
+
+- #### Syntax:-
+```python
+while condition:
+    if(condition):
+        continue
+Rest of Code
+```
+- #### Example:-
+```python
+num = 0
+while num != 5:
+    if(n==3):
+        continue
+    print(num)      # 0 1 2 4 5
+    num+=1 
+```
+
+---
+
+# `pass` Statement
+
+* The `pass` statement is used to **do nothing**.
+
+* It is helpful when a statement is **syntactically required**, but **no action** is needed.
+
+* Commonly used as a **placeholder** for future code blocks (in functions, loops, or conditionals).
+
+* #### Syntax:
+
+```python
+def somework():
+    pass
+
+while condition:
+    if(condition):
+        pass
+    Statements
+Rest of Code
+```
+
+* #### Example:
+
+```python
+for i in range(5):
+    if i == 3:
+        pass  # Placeholder where logic will be added later
+    else:
+        print("Processing:", i)
+
+def future_feature():
+    pass  # To be implemented later
+
+print("Program complete.")
+```
+
+---
